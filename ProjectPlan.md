@@ -66,7 +66,20 @@ Demographics: age, gender, parental_education_level
 URL: https://www.kaggle.com/datasets/jayaantanaath/student-habits-vs-academic-performance
 
 <h2>Timeline</h2>	
--insert 
+
+Our project will progress in clearly defined phases, with equal contributions from both team members. We will meet weekly and track all updates in GitHub.
+
+<ul>
+ <li><strong>Project Setup (by Oct 6)</strong> – Finalize topic, form team, create GitHub repo, and identify two datasets. (Both)</li>
+ <li><strong>Data Collection (by Oct 13)</strong> – Acquire datasets, verify integrity, and document sources. (Yamuna)</li>
+ <li><strong>PStorage & Organization (by Oct 27)</strong> – Structure files, load data into clean format. (Monisha)</li>
+ <li><strong>Data Cleaning (by Nov 3)</strong> – Handle missing values, duplicates, and inconsistencies. (Both))</li>
+ <li><strong>Data Integration (by Nov 10)</strong> – Merge datasets, align schemas, and document process. (Both)</li>
+ <li><strong>Interim Status Report (Due Nov 11)</strong> – Submit progress summary and contributions. (Both)</li>
+ <li><strong>Analysis & Visualization (by Nov 24)</strong> – Analyze correlations and create visualizations. (Monisha lead, Yamuna support)</li>
+ <li><strong>Workflow Automation (by Dec 5)</strong> – Develop “Run All” workflow. (Yamuna lead, Monisha support)</li>
+ <li><strong>Reproducibility (by Dec 8</strong>) – Upload output to Box, finalize documentation. (Both)</li>
+ <li><strong>Final Submission (Due Dec 10)</strong> – Submit final report, scripts, and artifacts. (Both)</li>
 
 <h2>Constraints</h2>	
 Our project faces a couple constraints that we believe may mpact our interpretation if not addressed. First, the two datasets represent different student populations sampled at different time periods, which limits our ability to directly compare findings any may affect any generalizations. The metadata in the Kaggle dataset informas us that it relies on self-reported survey data, introducing potential response bias. Meanwhile the CMU dataset's objective Fitbit measurements are limited to students who consistently wore their devices. It is also a known constraint that since we are expected to finish the project within 10 weeks time, we are forced to using personal computing resources rather than high-performance computing, and must manage data dtorage carefully gicen Github's file size limitations. We also acknowledge that missing data in both datasets may reduce our effective sample sizes for certain analyses. 
