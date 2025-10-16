@@ -12,14 +12,13 @@ With this project we hope to answer our primary research question being "how doe
 
 <h3>Team Responsibilites</h3>
 
-Our team, consisting of Yamuna and Monisha, will collaborate closely throughout all stages of the project. We plan to work jointly on most parts of the workflow—from data acquisition and cleaning to analysis and reporting—to ensure shared understanding, equal contribution, and consistent progress.
+Our team, consisting of Yamuna and Monisha, will collaborate closely throughout all stages of the project. We plan to work jointly on most parts of the workflow—from data acquisition and cleaning to analysis and reporting—to ensure shared understanding, equal contribution, and consistent progress. 
 
-
-<h4>Monisha Mudunuri<h4>
+<h4>Monisha Mudunuri </h4>
 
 Monisha will focus on integration datasets, managing the Github repository, and documenting the workflow to ensure reproducibility. She will take the lead on ethical data handling and guarantee that all code, processes, and analyses are clearly traceable 
 
-<h4>Yamuna Nair<h4>
+<h4>Yamuna Nair </h4>
 
 Yamuna will focus on data preprocessing, quality assessment, and managing the GitHub repository. She will also lead in maintaining the project’s version control, tracking progress through commits, and contributing to data integration and documentation.
 
