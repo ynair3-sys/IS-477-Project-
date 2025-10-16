@@ -40,3 +40,22 @@ Our first dataset that we have chosen is regarding CMU sleep and GPA. It was sou
 
 <h6>Source:</h6>
 URL: https://cmustatistics.github.io/data-repository/data/cmu-sleep.csv
+
+<h5>DataSet #2: Student Habits vs Academic Performance</h5>
+This datset includes durvey data from 1,000 students captruing sleep habits, study behaviors, lifestyle factors, and academic performance. It is in CSV format. 
+
+<h6>Key Variables:</h6>
+Sleep: sleep_hours
+
+Study Habits: study_hours_per_day, attendance_percentage
+
+Distractions: social_media_hours, netflix_hours 
+
+Lifestyle: diet_quality, excercise_frequency, mental_health_rating
+
+Academic: exam_score
+
+Demographics: age, gender, parental_education_level
+
+<h6>Source:</h6>
+URL: https://www.kaggle.com/datasets/jayaantanaath/student-habits-vs-academic-performance
