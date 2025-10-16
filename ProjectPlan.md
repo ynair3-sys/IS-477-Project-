@@ -68,3 +68,7 @@ URL: https://www.kaggle.com/datasets/jayaantanaath/student-habits-vs-academic-pe
 <h2>Timeline</h2>	
 -insert 
 
+<h2>Constraints</h2>	
+Our project faces a couple constraints that we believe may mpact our interpretation if not addressed. First, the two datasets represent different student populations sampled at different time periods, which limits our ability to directly compare findings any may affect any generalizations. The metadata in the Kaggle dataset informas us that it relies on self-reported survey data, introducing potential response bias. Meanwhile the CMU dataset's objective Fitbit measurements are limited to students who consistently wore their devices. It is also a known constraint that since we are expected to finish the project within 10 weeks time, we are forced to using personal computing resources rather than high-performance computing, and must manage data dtorage carefully gicen Github's file size limitations. We also acknowledge that missing data in both datasets may reduce our effective sample sizes for certain analyses. 
+
+
