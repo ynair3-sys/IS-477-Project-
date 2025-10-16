@@ -7,3 +7,24 @@ Sleep is very important right? Despite this, college students choose to stay awa
 
 <h3>Research Questions</h3>
 With this project we hope to answer our primary research question being "how does sleep patterns influence GPA and study productivity among college students?" Secondly, we hope to learn if sleep patterns such as sleep timing or bedtime consistency predict academic outcomes beyond total sleep duration. 
+
+
+<h3>Team Responsibilites</h3>
+-insert 
+
+
+<h3>DataSets</h3>
+<h5>DataSet #1: CMU Sleep and GPA Dataset</h5>
+Our first dataset that we have chosen is regarding CMU sleep and GPA. It was sourceed from Carnegie Mellon Univeristy Statistics and Data Science Repository. Its format is CSV. This dataset contains sleep and academic data from 634 first year college students across three universities being Carnegie Mellon, Univeristy of Washington, and Notre Dame. The study was about students wearing fitbit devices for one month during their spring semster to track sleep patterns. 
+
+<h6>Key Variables:</h6>
+-Sleep metrics: TotalSleepTime (minutes), bedtime_mssd (variablity), midpoint_sleep, and daytime_sleep
+
+-Academic: term_gpa(0-4scale), cum_gpa, term_units
+
+-Demographics: demo_gender, demo_race, demo_firstgen
+
+-Data quallity: frac_nights_with_data
+
+<h6>Source:</h6>
+URL: https://cmustatistics.github.io/data-repository/data/cmu-sleep.csv
