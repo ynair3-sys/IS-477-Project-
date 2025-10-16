@@ -6,4 +6,4 @@ Sleep is very important right? Despite this, college students choose to stay awa
 
 
 <h3>Research Questions</h3>
-With this project we hope to answer our primary research question being "how do sleep patterns influence GPA and study productivity among college students?." Seconndly we hope to learn is sleep patterns such as sleep timing 
+With this project we hope to answer our primary research question being "how does sleep patterns influence GPA and study productivity among college students?" Secondly, we hope to learn if sleep patterns such as sleep timing or bedtime consistency predict academic outcomes beyond total sleep duration. 
