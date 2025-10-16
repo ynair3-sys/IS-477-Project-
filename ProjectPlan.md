@@ -17,7 +17,7 @@ Our team, consisting of Yamuna and Monisha, will collaborate closely throughout 
 
 <h4>Monisha Mudunuri<h4>
 
-Monisha will focus on integrating datasets, conducting data visualization, and documenting the workflow to ensure reproducibility. She will also take the lead on ethical data handling and ensure that all processes, code, and analyses are clearly traceable.
+Monisha will focus on integration datasets, managing the Github repository, and documenting the workflow to ensure reproducibility. She will take the lead on ethical data handling and guarantee that all code, processes, and analyses are clearly traceable 
 
 <h4>Yamuna Nair<h4>
 
