@@ -1,4 +1,4 @@
-<h2>Yamuna & Monisha's Project Plan</h2>	
+<h1>Yamuna & Monisha's Project Plan</h1>	
 
 <h2>Overview</h2>	
 
