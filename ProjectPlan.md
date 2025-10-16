@@ -64,3 +64,7 @@ Demographics: age, gender, parental_education_level
 
 <h6>Source:</h6>
 URL: https://www.kaggle.com/datasets/jayaantanaath/student-habits-vs-academic-performance
+
+<h2>Timeline</h2>	
+-insert 
+
