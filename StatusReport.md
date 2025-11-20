@@ -27,7 +27,21 @@ For data cleaning, Monisha first ran the Python script to handle the major prepr
 -what we did, what artifacts were created, what decisisons were made
 
 <h2>Artifacts</h2>
-- Data Sets: 
+<h5>Raw Data - these files represent the original datsets exactly as downloaded. They are used as the source files for all cleaning and integration steps.</h5>
+ <li><strong></li>
+ <li><strong>Data Collection (by Oct 13)</strong> – Acquire datasets, verify integrity, and document sources. (Yamuna)</li>
+ <li><strong>PStorage & Organization (by Oct 27)</strong> – Structure files, load data into clean format. (Monisha)</li>
+ <li><strong>Data Cleaning (by Nov 3)</strong> – Handle missing values, duplicates, and inconsistencies. (Both))</li>
+ <li><strong>Data Integration (by Nov 10)</strong> – Merge datasets, align schemas, and document process. (Both)</li>
+ <li><strong>Interim Status Report (Due Nov 11)</strong> – Submit progress summary and contributions. (Both)</li>
+ <li><strong>Analysis & Visualization (by Nov 24)</strong> – Analyze correlations and create visualizations. (Monisha lead, Yamuna support)</li>
+ <li><strong>Workflow Automation (by Dec 5)</strong> – Develop “Run All” workflow. (Yamuna lead, Monisha support)</li>
+ <li><strong>Reproducibility (by Dec 8</strong>) – Upload output to Box, finalize documentation. (Both)</li>
+ <li><strong>Final Submission (Due Dec 10)</strong> – Submit final report, scripts, and artifacts. (Both)</li>
+
+
+
+
   
 
 <h2>Changes to the Project Plan</h2>	
