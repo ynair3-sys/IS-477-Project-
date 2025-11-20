@@ -58,8 +58,7 @@ Yamuna and I made a few changes to our original project plan to reflect our actu
 These changes were necessary to make sure our cleaned datasets were thorough, consistent, and ready for smooth integration. Taking extra time to learn and use OpenRefine improved the overall quality of our preprocessing, even though it slightly delayed our other tasks. We adjusted the deadlines for Workflow Automation and Reproducibility to ensure we have enough time to complete all deliverables ahead of the final submission date. Overall, the changes to the timeline improve our workflow without compromising quality, and the guidance we received from 
 
 <h2>Issues, Blockers, Risks</h2>	
-- bugs, data issues, time constriants, tool limitations, missing documentation, delays 
-- briefly mention mitigation plan 
+We didn’t encounter major blockers, but there were a few risks. All datasets can be redistributed, so there are no restrictions on sharing files within our project. Time constraints were a factor since data cleaning took longer than expected, but we adjusted the timeline to stay on track. A minor tool limitation exists because OpenRefine requires manual interaction, but we mitigated this by documenting our cleaning steps to ensure reproducibility.
 
 <h2>Next Steps</h2>
 
