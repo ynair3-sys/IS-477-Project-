@@ -52,10 +52,10 @@ For data cleaning, Monisha first ran the Python script to handle the major prepr
 
 <h2>Changes to the Project Plan</h2>	
 <h5>Summary of Changes</h5>
-- explain changes to tasks, new tasks added, tasks removed, changes in scope or approach, adjustements due to the feedback from milestone 2 
+Yamuna and I made a few changes to our original project plan to reflect our actual workflow and the tools we adopted along the way. We pushed data iIntegration to next week because we chose to spend additional time strengthening our data cleaning phase. After learning how to use OpenRefine, we incorporated it into our workflow to perform more precise cleaning than initially planned. We also shifted the timelines for Workflow Automation and Reproducibility to earlier dates to accommodate the updated final project deadline (December 7th). No changes were needed based on Milestone 2 feedback, as our work aligned with project requirements, but we did clarify several questions with the TAs to ensure we remained on track.
 
 <h5>Reason for Changes</h5>
-- why was these changes nessacary, how it impacts the timeline, what we learned
+These changes were necessary to make sure our cleaned datasets were thorough, consistent, and ready for smooth integration. Taking extra time to learn and use OpenRefine improved the overall quality of our preprocessing, even though it slightly delayed our other tasks. We adjusted the deadlines for Workflow Automation and Reproducibility to ensure we have enough time to complete all deliverables ahead of the final submission date. Overall, the changes to the timeline improve our workflow without compromising quality, and the guidance we received from 
 
 <h2>Issues, Blockers, Risks</h2>	
 - bugs, data issues, time constriants, tool limitations, missing documentation, delays 
