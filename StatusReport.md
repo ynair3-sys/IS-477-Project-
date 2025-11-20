@@ -6,44 +6,39 @@
 Sleep is very important right? Despite this, college students choose to stay awake days on end willingly to run on only 3-4 hours of sleep at a time. Is this healthy, we know not. Yet, many of our peers still continue this routine, and somehow manage to attain good grades. So really is sleep all thaty important? We hope to uncover how sleep patterns influence academic performance and study productivity aong college students by integrating two distinct datasets. We want to undertsnad the direct effects of sleep on GPA, exam scores, and the indirect effects sleep has on study habits as well as productivity. We hope to uncover this answer through data analysis, incorporating ethical data handling, ensuring quality, integration, and automated reproducibility.  
 
 
-<h2>DataSets</h2>
-<h5>DataSet #1: CMU Sleep and GPA Dataset</h5>
-Our first dataset that we have chosen is regarding CMU sleep and GPA. It was sourceed from Carnegie Mellon Univeristy Statistics and Data Science Repository. Its format is CSV. This dataset contains sleep and academic data from 634 first year college students across three universities being Carnegie Mellon, Univeristy of Washington, and Notre Dame. The study was about students wearing fitbit devices for one month during their spring semster to track sleep patterns. 
+<h2>Progress Update</h2>
+<h5>Task 1</h5>
+-what we did, what artifacts were created, what decisisons were made
 
-<h6>Key Variables:</h6>
--Sleep metrics: TotalSleepTime (minutes), bedtime_mssd (variablity), midpoint_sleep, and daytime_sleep
+<h5>Task 2</h5>
+-what we did, what artifacts were created, what decisisons were made
 
--Academic: term_gpa(0-4scale), cum_gpa, term_units
+<h5>Task 3</h5>
+-what we did, what artifacts were created, what decisisons were made
 
--Demographics: demo_gender, demo_race, demo_firstgen
+<h2>Artifacts</h2>
+- Datasets
+- Script
+- Workflow Diagram 
+- Jupyter Notebook
 
--Data quallity: frac_nights_with_data
+<h2>Changes to the Project Plan</h2>	
+<h5>Summary of Changes</h5>
+- explain changes to tasks, new tasks added, tasks removed, changes in scope or approach, adjustements due to the feedback from milestone 2 
 
-<h6>Source:</h6>
-URL: https://cmustatistics.github.io/data-repository/data/cmu-sleep.csv
+<h5>Reason for Changes</h5>
+- why was these changes nessacary, how it impacts the timeline, what we learned
 
-<h5>DataSet #2: Student Habits vs Academic Performance</h5>
-This datset includes durvey data from 1,000 students captruing sleep habits, study behaviors, lifestyle factors, and academic performance. It is in CSV format. 
+<h2>Issues, Blockers, Risks</h2>	
+- bugs, data issues, time constriants, tool limitations, missing documentation, delays 
+- briefly mention mitigation plan 
 
-<h6>Key Variables:</h6>
-Sleep: sleep_hours
+<h2>Next Steps</h2>
+- what still needs to be done
+- dependencies or blockers 
 
-Study Habits: study_hours_per_day, attendance_percentage
-
-Distractions: social_media_hours, netflix_hours 
-
-Lifestyle: diet_quality, excercise_frequency, mental_health_rating
-
-Academic: exam_score
-
-Demographics: age, gender, parental_education_level
-
-<h6>Source:</h6>
-URL: https://www.kaggle.com/datasets/jayaantanaath/student-habits-vs-academic-performance
-
-<h2>Timeline</h2>	
-
-Our project will progress in clearly defined phases, with equal contributions from both team members. We will meet weekly and track all updates in GitHub.
+<h2>Updated Timeline</h2>
+- edit and make changes 
 
 <ul>
  <li><strong>Project Setup (by Oct 6)</strong> – Finalize topic, form team, create GitHub repo, and identify two datasets. (Both)</li>
@@ -57,6 +52,14 @@ Our project will progress in clearly defined phases, with equal contributions fr
  <li><strong>Reproducibility (by Dec 8</strong>) – Upload output to Box, finalize documentation. (Both)</li>
  <li><strong>Final Submission (Due Dec 10)</strong> – Submit final report, scripts, and artifacts. (Both)</li>
 
-<h2>Constraints</h2>	
-Our project faces a couple constraints that we believe may mpact our interpretation if not addressed. First, the two datasets represent different student populations sampled at different time periods, which limits our ability to directly compare findings any may affect any generalizations. The metadata in the Kaggle dataset informas us that it relies on self-reported survey data, introducing potential response bias. Meanwhile the CMU dataset's objective Fitbit measurements are limited to students who consistently wore their devices. It is also a known constraint that since we are expected to finish the project within 10 weeks time, we are forced to using personal computing resources rather than high-performance computing, and must manage data dtorage carefully gicen Github's file size limitations. We also acknowledge that missing data in both datasets may reduce our effective sample sizes for certain analyses. 
+<h2>Contributions By each Team Memember</h2>	
+<h5>Yamuna's Contributions</h5>
+
+
+<h5>Monisha's Contributions</h5>
+
+<h2>Summary</h2>	
+
+
+
 
