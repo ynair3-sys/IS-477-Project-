@@ -72,7 +72,6 @@ These changes were necessary to make sure our cleaned datasets were thorough, co
 * Resolve any blockers related to join keys, mismatched columns, or missing values.
 
 <h2>Updated Timeline</h2>
-- edit and make changes 
 
 <ul>
  <li><strong>Project Setup (by Oct 6)</strong> – Finalize topic, form team, create GitHub repo, and identify two datasets. (Both)</li>
