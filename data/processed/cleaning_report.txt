@@ -1,0 +1,24 @@
+
+DATA CLEANING SUMMARY
+======================================================================
+
+CMU Sleep Dataset:
+  Final records: 597
+  Final columns: 18
+  Sleep hours range: 3.25h - 9.57h
+  GPA range: 0.35 - 4.00
+
+Kaggle Student Habits Dataset:
+  Final records: 1000
+  Final columns: 19
+  Sleep hours range: 3.20h - 10.00h
+  Exam score range: 18 - 100
+
+Cleaning Operations Applied:
+  ✓ Duplicate removal
+  ✓ Missing data handling
+  ✓ Outlier detection and flagging
+  ✓ Data type standardization
+  ✓ Column name standardization
+  ✓ Quality filtering (CMU: frac_nights_with_data >= 0.5)
+  ✓ Unit conversion (CMU: minutes to hours)
