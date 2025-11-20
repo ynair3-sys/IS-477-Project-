@@ -11,7 +11,24 @@ Sleep is very important right? Despite this, college students choose to stay awa
 -what we did, what artifacts were created, what decisisons were made
 
 <h5>Github Organization</h5>
--what we did, what artifacts were created, what decisisons were made
+IS-477-Project/
+│
+├── data/
+│   ├── raw/              # Original downloads of csv files
+│   ├── processed/        # After cleaning
+│   └── integrated/       # After merging
+│
+├── scripts/              # All Python code (numbered in order)
+│
+├── results/              # Graphs, tables, findings
+│   ├── figures/
+│   └── tables/
+│
+├── docs/                 # Explanations & documentation
+│
+├── .gitignore            # What NOT to upload
+├── ProjectPlan.md        # ✓ Already done      # Due Nov 11
+└── StatuesReport.md      # Due Thursday November 20th
 
 <h5>Data Cleaning</h5>
 
