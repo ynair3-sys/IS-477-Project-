@@ -8,7 +8,11 @@ Sleep is very important right? Despite this, college students choose to stay awa
 
 <h2>Progress Update</h2>
 <h5>Data Aquisition</h5>
--what we did, what artifacts were created, what decisisons were made
+
+Yamuna and I handled data acquisition by creating a Python script that fully automates downloading and validating our datasets. For the CMU Sleep & GPA dataset, the script pulls the CSV directly from the public URL using requests, saves it into our project’s data/raw directory, and immediately generates a SHA-256 checksum to confirm file integrity. 
+
+For the Kaggle dataset, since redistribution isn’t allowed, the script checks for a manually downloaded file in the correct folder and verifies its checksum the same way. Both datasets are then summarized with basic row, column, and size information. All computed checksums are stored in a CHECKSUMS.txt file so anyone can reproduce the acquisition process and verify that the data they’re using matches the original source.
+
 
 <h5>Github Organization</h5>
 
