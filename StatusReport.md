@@ -15,6 +15,7 @@ Sleep is very important right? Despite this, college students choose to stay awa
 
 <h5>Data Cleaning</h5>
 -what we did, what artifacts were created, what decisisons were made
+When it came to cleaning When it came to data cleaning, Monisha and I initally approached it by using a scriot that we had created that checked for 
 
 <h5>Data Integration</h5>
 -what we did, what artifacts were created, what decisisons were made
