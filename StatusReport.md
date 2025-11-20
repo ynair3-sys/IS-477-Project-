@@ -62,8 +62,14 @@ These changes were necessary to make sure our cleaned datasets were thorough, co
 - briefly mention mitigation plan 
 
 <h2>Next Steps</h2>
-- what still needs to be done
-- dependencies or blockers 
+
+* Integrate the two cleaned datasets and store the output in data/integrated/.
+  
+* Finalize column alignment and document integration rules.
+* Begin exploratory data analysis and produce initial visualizations.
+* Build the automated “Run All” workflow for acquisition → cleaning → integration → EDA.
+* Prepare for correlation and regression analysis on sleep vs. performance.
+* Resolve any blockers related to join keys, mismatched columns, or missing values.
 
 <h2>Updated Timeline</h2>
 - edit and make changes 
