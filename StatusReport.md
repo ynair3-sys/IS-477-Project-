@@ -11,24 +11,9 @@ Sleep is very important right? Despite this, college students choose to stay awa
 -what we did, what artifacts were created, what decisisons were made
 
 <h5>Github Organization</h5>
-IS-477-Project/
-│
-├── data/
-│   ├── raw/              # Original downloads of csv files
-│   ├── processed/        # After cleaning
-│   └── integrated/       # After merging
-│
-├── scripts/              # All Python code (numbered in order)
-│
-├── results/              # Graphs, tables, findings
-│   ├── figures/
-│   └── tables/
-│
-├── docs/                 # Explanations & documentation
-│
-├── .gitignore            # What NOT to upload
-├── ProjectPlan.md        # ✓ Already done      # Due Nov 11
-└── StatuesReport.md      # Due Thursday November 20th
+
+<img width="521" height="367" alt="Screenshot 2025-11-20 at 5 11 36 PM" src="https://github.com/user-attachments/assets/561a6810-ea31-4f2e-a271-15bc1ad0e4b3" />
+
 
 <h5>Data Cleaning</h5>
 
@@ -38,9 +23,8 @@ For data cleaning, Monisha first ran the Python script to handle the major prepr
 -what we did, what artifacts were created, what decisisons were made
 
 <h2>Artifacts</h2>
-- Datasets
-- Script
-- Workflow Diagram 
+- Data Sets: 
+  
 
 <h2>Changes to the Project Plan</h2>	
 <h5>Summary of Changes</h5>
