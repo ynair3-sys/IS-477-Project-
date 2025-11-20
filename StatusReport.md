@@ -10,17 +10,19 @@ Sleep is very important right? Despite this, college students choose to stay awa
 <h5>Data Aquisition</h5>
 -what we did, what artifacts were created, what decisisons were made
 
-<h5>Task 2</h5>
+<h5>Organization</h5>
 -what we did, what artifacts were created, what decisisons were made
 
-<h5>Task 3</h5>
+<h5>Data Cleaning</h5>
+-what we did, what artifacts were created, what decisisons were made
+
+<h5>Data Integration</h5>
 -what we did, what artifacts were created, what decisisons were made
 
 <h2>Artifacts</h2>
 - Datasets
 - Script
 - Workflow Diagram 
-- Jupyter Notebook
 
 <h2>Changes to the Project Plan</h2>	
 <h5>Summary of Changes</h5>
