@@ -7,7 +7,7 @@ Sleep is very important right? Despite this, college students choose to stay awa
 
 
 <h2>Progress Update</h2>
-<h5>Task 1</h5>
+<h5>Data Aquisition</h5>
 -what we did, what artifacts were created, what decisisons were made
 
 <h5>Task 2</h5>
