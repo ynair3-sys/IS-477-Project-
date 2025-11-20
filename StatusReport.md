@@ -10,7 +10,7 @@ Sleep is very important right? Despite this, college students choose to stay awa
 <h5>Data Aquisition</h5>
 -what we did, what artifacts were created, what decisisons were made
 
-<h5>Organization</h5>
+<h5>Github Organization</h5>
 -what we did, what artifacts were created, what decisisons were made
 
 <h5>Data Cleaning</h5>
