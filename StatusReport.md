@@ -84,7 +84,7 @@ We didn’t encounter major blockers, but there were a few risks. All datasets c
  <li><strong>Reproducibility (by Dec 2</strong>) – Upload output to Box, finalize documentation. (Both)</li>
  <li><strong>Final Submission (Due Dec 7)</strong> – Submit final report, scripts, and artifacts. (Both)</li>
 
-<h2>Contributions By each Team Memember</h2>	
+<h2>Contributions By Each Team Memember</h2>	
 <h5>Yamuna's Contributions</h5>
 For this milestone, my partner and I worked collaboratively on all components of the project. We jointly did all the data acquisition, dataset inspection, cleaning, and documentation. Together, we executed the scripts, reviewed cleaning decisions, created the processing report, and organized the repository structure. We also co-wrote this StatusReport.md and revised our project timeline. While specific tasks were individually assigned, I actively participated in both the technical and documentation stages through pair programming and joint decision-making. We did completed everything so far with each other in person. 
 
