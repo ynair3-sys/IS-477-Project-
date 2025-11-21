@@ -23,8 +23,6 @@ For the Kaggle dataset, since redistribution isn’t allowed, the script checks 
 
 For data cleaning, Monisha first ran the Python script to handle the major preprocessing steps—removing duplicates, fixing missing values, standardizing column names, converting units, flagging outliers, and validating numerical ranges. After running the script, we noticed that the parental_education column had its “None” values stripped to blanks, so Yamuna used OpenRefine for manual validation and correction of the datasets. In OpenRefine, Yamuna trimmed whitespace across all text fields to remove hidden characters, used text and categorical facets to confirm that category labels were consistent, and applied numeric facets to check that all numeric columns were correctly typed and fell within expected ranges. She also scanned for duplicate student IDs and duplicate rows to ensure no repeated entries remained. Together, the script and OpenRefine steps gave us a fully standardized, validated dataset ready for analysis.
 
-<h5>Data Integration</h5>
--what we did, what artifacts were created, what decisisons were made
 
 <h2>Artifacts</h2>
 <h5>Raw Data: these files represent the original datsets exactly as downloaded. They are used as the source files for all cleaning and integration steps.</h5>
