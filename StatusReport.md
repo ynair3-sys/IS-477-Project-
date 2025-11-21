@@ -60,6 +60,7 @@ We didn’t encounter major blockers, but there were a few risks. All datasets c
 
 <h2>Next Steps</h2>
 
+* Complete a better analysis of FAIR principles and create documentation that goes into a lot more depth about it as well. 
 * Integrate the two cleaned datasets and store the output in data/integrated/.
   
 * Finalize column alignment and document integration rules.
@@ -67,6 +68,7 @@ We didn’t encounter major blockers, but there were a few risks. All datasets c
 * Build the automated “Run All” workflow for acquisition → cleaning → integration → EDA.
 * Prepare for correlation and regression analysis on sleep vs. performance.
 * Resolve any blockers related to join keys, mismatched columns, or missing values.
+  
 
 <h2>Updated Timeline</h2>
 
