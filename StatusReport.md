@@ -90,7 +90,8 @@ For this milestone, my partner and I worked collaboratively on all components of
 
 <h5>Monisha's Contributions</h5>
 
-<h2>Summary</h2>	
+For this milestone, I worked closely with Yamuna on all parts of the project. We sat together and collaborated on data acquisition, cleaning, and documentation, running scripts and validating decisions as a team. I actively participated in both technical tasks and report writing, ensuring the datasets were clean and reproducible. Overall, our contributions were joint, and all work was completed through in-person collaboration.
+
 
 
 
