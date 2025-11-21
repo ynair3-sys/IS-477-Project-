@@ -73,7 +73,7 @@ We didn’t encounter major blockers, but there were a few risks. All datasets c
 <h2>Updated Timeline</h2>
 
 <ul>
- <li><strong>Project Setup (by Oct 6)</strong> – Finalize topic, form team, create GitHub repo, and identify two datasets. (Both)</li>
+ <li>Project Setup (by Oct 6)</strong> – Finalize topic, form team, create GitHub repo, and identify two datasets. (Both)</li>
  <li><strong>Data Collection (by Oct 13)</strong> – Acquire datasets, verify integrity, and document sources. (Yamuna)</li>
  <li><strong>PStorage & Organization (by Oct 27)</strong> – Structure files, load data into clean format. (Monisha)</li>
  <li><strong>Data Cleaning (by Nov 3)</strong> – Handle missing values, duplicates, and inconsistencies. (Both))</li>
@@ -86,7 +86,7 @@ We didn’t encounter major blockers, but there were a few risks. All datasets c
 
 <h2>Contributions By each Team Memember</h2>	
 <h5>Yamuna's Contributions</h5>
-
+For this milestone, my partner and I worked collaboratively on all components of the project. We jointly did all the data acquisition, dataset inspection, cleaning, and documentation. Together, we executed the scripts, reviewed cleaning decisions, created the processing report, and organized the repository structure. We also co-wrote this StatusReport.md and revised our project timeline. While specific tasks were individually assigned, I actively participated in both the technical and documentation stages through pair programming and joint decision-making. We did completed everything so far with each other in person. 
 
 <h5>Monisha's Contributions</h5>
 
