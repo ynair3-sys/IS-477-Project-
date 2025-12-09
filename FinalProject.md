@@ -81,3 +81,8 @@ Pedregosa et al., Scikit-learn: Machine Learning in Python (2011).
 Papers / background sources
 Author(s). Year. Title. Journal/Conference. DOI/URL.
 Use consistent citation style (APA, Chicago, IEEE, etc.).
+
+
+CMU Sleep Dataset
+Carnegie Mellon University, Department of Statistics & Data Science. (n.d.). CMU Sleep Study Dataset [Data set]. CMU Statistics Data Repository. Retrieved December 9, 2025, from https://cmustatistics.github.io/data-repository/data/cmu-sleep.csv.
+License: Not specified; use permitted for educational and research purposes only, but redistribution or commercial use is not explicitly allowed
