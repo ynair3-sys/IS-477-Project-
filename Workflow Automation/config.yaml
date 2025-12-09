@@ -1,0 +1,64 @@
+# Configuration file for Sleep & Academic Performance Study
+# Last updated: December 2025
+
+# Data sources
+data:
+  cmu_url: "https://cmustatistics.github.io/data-repository/data/cmu-sleep.csv"
+  kaggle_dataset: "jayaantanaath/student-habits-vs-academic-performance"
+
+# File paths
+paths:
+  raw_data:
+    cmu: "cmu-sleep.csv"
+    kaggle: "student_habits_performance.csv"
+  cleaned_data:
+    cmu: "cleaned_cmu-sleep.csv"
+    kaggle: "cleaned_student_habits.csv"
+  integrated: "data/integrated_data.csv"
+  results: "results/"
+  figures: "results/figures/"
+  tables: "results/tables/"
+
+# Analysis parameters
+analysis:
+  sleep_categories:
+    poor: [0, 6]
+    insufficient: [6, 7]
+    adequate: [7, 8]
+    optimal: [8, 12]
+  
+  academic_scale:
+    min: 0
+    max: 100
+  
+  significance_level: 0.05
+
+# Visualization settings
+visualization:
+  figure_dpi: 300
+  figure_format: "png"
+  color_palette:
+    - "#d62728"  # Red (Poor sleep)
+    - "#ff7f0e"  # Orange (Insufficient)
+    - "#2ca02c"  # Green (Adequate)
+    - "#1f77b4"  # Blue (Optimal)
+
+# Software dependencies
+dependencies:
+  python_version: "3.9.6"
+  packages:
+    - pandas
+    - numpy
+    - matplotlib
+    - seaborn
+    - scipy
+    - scikit-learn
+
+# Project metadata
+metadata:
+  title: "Sleep Patterns and Academic Performance Among College Students"
+  authors:
+    - name: "[Your Name]"
+      affiliation: "University of Illinois Urbana-Champaign"
+  date: "December 2025"
+  license: "MIT"
