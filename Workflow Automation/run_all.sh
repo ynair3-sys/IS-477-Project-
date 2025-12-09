@@ -7,7 +7,7 @@
 #   ./run_all.sh              # Run complete workflow
 #   ./run_all.sh --clean      # Clean outputs and re-run
 #
-# Author: [Your Name]
+# Author: Monisha Mudunuri and Yamuna Nair 
 # Date: December 2025
 
 set -e  # Exit on error
