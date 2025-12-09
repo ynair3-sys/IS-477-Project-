@@ -1,0 +1,83 @@
+#############################################
+# Snakemake Workflow for IS 477 Final Project
+#############################################
+
+rule all:
+    input:
+        # Integrated data
+        "data/integrated_data.csv",
+
+        # Tables
+        "results/tables/descriptive_statistics.json",
+        "results/tables/correlations.json",
+        "results/tables/regression_results.json",
+        "results/tables/category_analysis.json",
+
+        # Figures
+        "results/figures/01_sleep_distribution.png",
+        "results/figures/02_sleep_vs_performance.png",
+        "results/figures/03_dataset_comparison.png",
+        "results/figures/04_productivity_mediation.png"
+
+
+#############################################
+# Step 1: Data Integration
+#############################################
+
+rule integrate_data:
+    input:
+        cmu="cleaned_cmu-sleep.csv",
+        kaggle="cleaned_student_habits.csv"
+    output:
+        "data/integrated_data.csv"
+    log:
+        "logs/integration.log"
+    shell:
+        """
+        mkdir -p data logs
+        python 03_data_integration.py > {log} 2>&1
+        echo "✓ Data integration complete" >> {log}
+        """
+
+
+#############################################
+# Step 2: Data Analysis + Visualization
+#############################################
+
+rule analyze_and_visualize:
+    input:
+        "data/integrated_data.csv"
+    output:
+        # Tables
+        "results/tables/descriptive_statistics.json",
+        "results/tables/correlations.json",
+        "results/tables/regression_results.json",
+        "results/tables/category_analysis.json",
+
+        # Figures
+        "results/figures/01_sleep_distribution.png",
+        "results/figures/02_sleep_vs_performance.png",
+        "results/figures/03_dataset_comparison.png",
+        "results/figures/04_productivity_mediation.png"
+    log:
+        "logs/analysis.log"
+    shell:
+        """
+        mkdir -p results/tables results/figures logs
+        python 04_analysis_visualization.py > {log} 2>&1
+        echo "✓ Analysis and visualization complete" >> {log}
+        """
+
+
+#############################################
+# Clean Rule
+#############################################
+
+rule clean:
+    shell:
+        """
+        rm -rf data/integrated_data.csv
+        rm -rf results/
+        rm -rf logs/
+        echo "✓ Cleaned all outputs"
+        """
