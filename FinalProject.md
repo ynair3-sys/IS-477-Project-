@@ -1,7 +1,7 @@
-<h1>Are Student's Sleeping on Success?
-Modeling The Relationship Between Sleep Patterns and Academic Performance Among College Students</h1>	
+<h1>Yamuna and Monisha's Final Project</h1>	
 
-<h2>Project title</h2>	
+<h2>Are Student's Sleeping on Success?
+Modeling The Relationship Between Sleep Patterns and Academic Performance Among College Students</h2>	
 
 <h2>Contributors</h2>	
   <li>Monisha Mudunuri </li>
