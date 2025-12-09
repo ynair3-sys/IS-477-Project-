@@ -1,0 +1,9 @@
+{
+  "sleep_hours_vs_academic_score": {
+    "overall": 0.14398566976702448,
+    "cmu": 0.16098852484937876,
+    "kaggle": 0.12168291063768023
+  },
+  "sleep_hours_vs_productivity": -0.01461454068472686,
+  "productivity_vs_academic_score": 0.6593779307743491
+}

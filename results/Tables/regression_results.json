@@ -1,0 +1,36 @@
+{
+  "model_1_simple": {
+    "description": "Academic Score ~ Sleep Hours (All Students)",
+    "n": 1547,
+    "coefficient": 2.250382328422957,
+    "intercept": 60.87044948775721,
+    "r_squared": 0.02073187309825919,
+    "rmse": 17.17062926414616
+  },
+  "model_2_cmu": {
+    "description": "Academic Score ~ Sleep Hours (CMU Only)",
+    "n": 547,
+    "coefficient": 2.2984749021443185,
+    "intercept": 71.20889747972718,
+    "r_squared": 0.02591730513317836,
+    "rmse": 12.001567310663347
+  },
+  "model_3_kaggle": {
+    "description": "Academic Score ~ Sleep Hours (Kaggle Only)",
+    "n": 1000,
+    "coefficient": 1.6757081993942673,
+    "intercept": 58.75950037909915,
+    "r_squared": 0.014806730741257268,
+    "rmse": 16.754681795273594
+  },
+  "model_4_mediation": {
+    "description": "Mediation: Sleep -> Productivity -> Academic Score",
+    "n": 1000,
+    "path_a_sleep_to_productivity": -9.798885053929498,
+    "path_b_productivity_to_academic": 0.013582327641743134,
+    "path_c_total_effect": 1.6757081993942673,
+    "path_c_prime_direct_effect": 1.808799866720517,
+    "indirect_effect": -0.13309166732625027,
+    "proportion_mediated": -0.07942413086858444
+  }
+}

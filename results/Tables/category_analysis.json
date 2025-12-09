@@ -1,0 +1,29 @@
+{
+  "anova": {
+    "f_statistic": 16.489698912800442,
+    "p_value": 1.504899198312451e-10,
+    "significant": true
+  },
+  "by_category": {
+    "Poor": {
+      "n": 489,
+      "academic_score_mean": 71.31026359688138,
+      "academic_score_std": 17.248952686044884
+    },
+    "Insufficient": {
+      "n": 567,
+      "academic_score_mean": 77.33434361706348,
+      "academic_score_std": 17.17866090314304
+    },
+    "Adequate": {
+      "n": 363,
+      "academic_score_mean": 78.77289130261708,
+      "academic_score_std": 16.469238165652488
+    },
+    "Optimal": {
+      "n": 128,
+      "academic_score_mean": 74.65365651054688,
+      "academic_score_std": 17.941261449403004
+    }
+  }
+}

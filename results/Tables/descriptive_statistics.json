@@ -1,0 +1,29 @@
+{
+  "Overall": {
+    "n": 1547,
+    "sleep_mean": 6.521317772399267,
+    "sleep_std": 1.110551686157886,
+    "academic_mean": 75.54590776079509,
+    "academic_std": 17.357045971128542
+  },
+  "CMU": {
+    "n": 547,
+    "sleep_mean": 6.614951725597197,
+    "sleep_std": 0.8524963890009669,
+    "academic_mean": 86.41319799990859,
+    "academic_std": 12.171311937423287
+  },
+  "Kaggle": {
+    "n": 1000,
+    "sleep_mean": 6.4700999999999995,
+    "sleep_std": 1.2263767732593422,
+    "academic_mean": 69.6015,
+    "academic_std": 16.888563921818257
+  },
+  "sleep_distribution": {
+    "Insufficient": 567,
+    "Poor": 489,
+    "Adequate": 363,
+    "Optimal": 128
+  }
+}
