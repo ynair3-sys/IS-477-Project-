@@ -8,14 +8,28 @@ Modeling The Relationship Between Sleep Patterns and Academic Performance Among 
   <li>Yamuna Nair</li>
 
 <h2>Summary</h2>	
-(500–1000 words)
-Provide a clear, organized narrative covering:
-What your project is about
-Motivation (why this topic matters)
-Research questions or objectives
-High-level workflow (data acquisition → cleaning → analysis → visualization)
-Key results or insights
-Any important challenges you faced
+
+Sleep deprivation is extremely common among college students. Many students stay awake for days and run on only 3-4 hours of sleep at a time, yet somehow still manage to get good grades. This raises an important question: does sleep really matter for academic success, or can students perform well despite getting very little rest?
+
+Our project examines how sleep patterns affect academic performance among college students by analyzing two different datasets. The first dataset is the CMU Sleep and GPA Dataset, which contains objective measurements from 634 first-year students at three universities (Carnegie Mellon, University of Washington, and Notre Dame). These students wore Fitbit devices for one month during their spring semester to track their sleep. The dataset includes metrics like total sleep time, bedtime variability, sleep midpoint, and daytime sleep, along with GPA data and demographic information. The second dataset comes from Kaggle and contains survey responses from 1,000 students about their sleep habits, study behaviors, social media usage, exercise, diet, mental health, and exam scores.
+Our main research question is: How do sleep patterns influence GPA and study productivity among college students? We also want to know if factors like sleep timing and bedtime consistency matter for academic performance beyond just total hours of sleep. In other words, does how you sleep matter as much as how long you sleep?
+
+Our workflow started with automated data acquisition. We wrote Python scripts that downloaded the CMU dataset from its public URL and verified both datasets using SHA-256 checksums saved in CHECKSUMS.txt. Since the Kaggle dataset cannot be redistributed, our script checked that the manually downloaded file was correct. We used the OpenRefine techniques that we learn in class to manually check the data, remove duplicates, fix missing values, standardize column names, convert units, and flag outliers. We also ensured to trim whitespace, verifying categories, and ensuring correct data types. We saved all cleaned versions of datasets in the  data/processed/ Cleaned CSV Datasets directory (the cleaned datasets are called cleaned_cmu-sleep and cleaned_student_habits). 
+Combining the two datasets was our biggest challenge because they have different structures. One uses objective Fitbit measurements while the other uses self-reported survey data. We matched up overlapping variables like sleep duration and academic performance to create a unified dataset that let us compare both sources. After integration, we performed exploratory data analysis and created visualizations to find patterns in sleep behavior and academic outcomes.
+
+We used correlation analysis and regression modeling to look at how sleep duration affects GPA and exam scores directly, and how it affects study habits and productivity indirectly. We checked whether bedtime consistency and sleep timing predict academic success separately from total sleep hours. We created scatter plots, correlation heatmaps, and distribution charts to show the relationships between sleep variability, study hours, lifestyle factors, and performance.
+
+We faced several challenges. The two datasets represent different student groups from different time periods, making direct comparisons difficult. The Kaggle data relies on self-reports, which can be biased, while the CMU data only includes students who consistently wore their Fitbit devices. Time constraints forced us to adjust our timeline and delay data integration while we improved our data cleaning. Both Yamuna and I equally contributed to all aspects of this project. Our findings and results helped answer whether college students can truly succeed without adequate sleep, and what the costs might be for their well-being and long-term success.
+
+
+
+
+
+
+
+
+
+
 
 <h2>Data profile</h2>	
 (500–1000 words)
