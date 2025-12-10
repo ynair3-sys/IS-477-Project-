@@ -33,18 +33,31 @@ We faced several challenges. The two datasets represent different student groups
 
 <h2>Data profile</h2>	
 (500–1000 words)
-For each dataset, include:
-Name of dataset
-Source (API, website, generated internally, etc.)
-Description (variables, schema, shape, time span, units)
-How it was obtained (script, manual download, programmatic retrieval)
-Ethical or legal considerations
-Licensing restrictions
-Terms of Use requirements
-Personally identifiable information (PII) handling
-Any de-identification steps
-How the data fits into your analysis pipeline
-Where it is stored in your repo, and where the output data from Box should be placed
+Data Profile
+
+**Dataset 1: CMU Sleep and GPA Dataset with Fitbit Data**
+
+The first dataset comes from a research project at three colleges: Carnegie Mellon, the University of Washington, and Notre Dame. Students in the study wore Fitbit watches for about a month during their spring semester. Because of that, the dataset has very detailed information about how the students slept and how active they were every day. It includes variables such how long they slept, how much time they spent in REM sleep, deep sleep, and light sleep, and how many times they woke up during the night. It also shows step count, minutes spent being active, minutes spent sitting, and calories burned. Their school information is there too, like their semester GPA and how they were doing in their classes which we found really nice for the long run. Each row in the dataset represents one day for one student, which adds up to around nineteen thousand days of data. All the measurements use clear units like minutes or percentages. Everything is organized so you can follow each student over time.There is no personal information that could identify any student. Everyone is assigned an ID number instead of a name, and the data does not include anything specific like exact addresses or the exact time someone fell asleep. The original researchers got approval from their universities and the students agreed to be part of the study.
+
+In our project, this dataset helps us because it gives real measured sleep data instead of guesses. Before we used the dataset, we cleaned it via OpenRefine checking for missing values, removing strange outliers, editing cells to be numeric, and more. The cleaned files are saved in a processed folder for reference. 
+
+**Dataset 2: Kaggle Student Habits and Academic Performance Dataset**
+
+The second dataset is from Kaggle and is based on a survey that one thousand students filled out. Unlike the Fitbit data, this one is all self reported, meaning students answered questions about their own habits.It includes their usual sleep hours, what time they go to bed, how good they think their sleep is, how much they study, how much time they spend on social media, how often they exercise, and how stressed they feel. It also has information about their GPA, their course load, their age, gender, and whether they live on campus or off campus.In this dataset, each student is one row. Most answers are either numbers or short text responses. Since it is a survey, all the data comes from one moment in time and does not track students across multiple days.
+
+Important to note there is no personal information like names or emails. Still, because it was collected by someone in the Kaggle community and not through an official research study, the consent process is not very clear. That means we treat this dataset as helpful and interesting, but not as strong as the Fitbit dataset when making big claims.
+
+We clean this dataset too by handling missing answers, converting text answers into numbers when needed, and creating new scores like time management or wellness scores.
+
+**Integration Strategy**
+
+The two datasets cannot be directly combined because they come from different groups of students at different schools and times. But they work well together in a different way.
+
+The Fitbit dataset gives very accurate sleep information based on real measurements. The Kaggle dataset gives personal context that devices cannot measure, like stress levels, study habits, and how students feel about their sleep.
+
+To connect the two datasets, we use three approaches. The first approach is to analyze each dataset separately and see if similar patterns show up in both. The second approach is to match students from one dataset to students in the other who have similar characteristics, even though they are not the same people. The third approach is to compare the results from both datasets and combine the findings to get bigger conclusions.
+
+All the processed files and results are kept in a folder for our integrated sleep study so everything stays organized and easy to follow.
 
 <h2>Data quality</h2>	
 (500–1000 words)
