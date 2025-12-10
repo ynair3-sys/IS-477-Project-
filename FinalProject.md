@@ -118,13 +118,36 @@ Any hypotheses supported or contradicted
 Be direct and evidence-based.
 
 <h2>Future work</h2>	
-(500–1000 words)
-Discuss:
-Limitations (data, methodology, tooling)
-What you would do with more time or better data
-How workflow automation could be extended
-Opportunities for deeper modeling or improved visualizations
-Practical next steps for anyone continuing this project
+
+Our project gave us a good look at how sleep patterns might relate to academic performance, but it also exposed several limitations in the data, methods, and tools we used. These limitations shaped our findings and show where improvements could make the analysis stronger. Being aware of these gaps can help future research produce more reliable insights into how sleep affects academic outcomes.
+
+**Limitations**
+
+One big limitation was the quality of the data. The CMU Sleep Dataset had missing demographic informatio  n, inconsistent responses, and some entries that looked inaccurate. Since the data comes from students reporting their own habits, it’s vulnerable to errors like forgetting details, estimating incorrectly, or answering in ways they think are “better” than reality. This makes some of the variables less trustworthy.
+
+The Kaggle Student Habits dataset is released under the Apache License 2.0, which means we can use, modify, and share it freely as long as we acknowledge the source, include the license, and document any changes. While the license allows this, the dataset itself comes from different student submissions that weren’t all verified, so errors could exist. In our project, we manually cleaned and standardized the data using OpenRefine and carefully documented every change.
+
+Our methodology had its limits as well. Because the datasets had relatively few variables, we mainly relied on descriptive statistics, simple correlations, and basic visualizations. These approaches help spot general trends but can’t fully capture all the factors that influence academic performance. Students’ grades are affected by stress, workload, extracurricular activities, jobs, and mental health—most of which weren’t included in the datasets. This means our results show associations but can’t prove causation.
+
+**What We Would Do With More Time or Better Data**
+
+If we had more time or better data, the first step would be to get richer datasets. Ideally, these would include detailed sleep information, academic performance, demographics, stress and mental health measures, and information about jobs, study habits, and extracurriculars. Adding timestamps would let us track patterns over weeks or months instead of looking at a single snapshot.
+Better data would also let us run more advanced analyses. Multivariate regressions could control for confounding factors, clustering could reveal distinct sleep behavior groups, and machine learning models like random forests or gradient boosting could detect more complex patterns. 
+
+**Extending Workflow Automation**
+
+There’s also room to make the workflow more automated. Python pipelines could handle data cleaning, analysis, modeling, and visualization in one system. Using Jupyter notebooks or a simple ETL setup would make updates faster, reduce mistakes, and make the process easier to reproduce. Automation could also allow the project to update results continuously instead of producing just one static analysis.
+
+**Opportunities for Deeper Modeling and Better Visualizations**
+
+Future studies could take a closer look using more advanced methods. Instead of looking at each factor on its own, predictive models like multiple regression or machine learning could help show how sleep, study habits, and lifestyle together affect academic performance. Clustering analysis could also group students in other ways for example, high achievers who sleep less, students who perform poorly despite enough sleep, or those who make up for poor sleep with strong study habits. This would help show whether different types of students might benefit from different strategies.
+
+Visualizations could also be more interactive instead of just static charts. For example, dashboards built with tools like Tableau could let users filter by things like gender, major, or school to see how patterns change across groups. Interactive heatmaps could show correlations between all the variables at once, making it easier to spot surprising connections between mental health, exercise, and grades. Users could click on data points to see details about individual students or hover over charts to get exact numbers, making the data more engaging and easier to explore.
+
+**Reflection**
+
+Overall, Yamuna and I believe that this project provided us with a solid foundation for understanding the relationship between sleep and academic performance. Even with data and methodology limits, we were able to identify clear patterns, clean and standardize the datasets using the steps we learnt in class and labs, and create meaningful visualizations. Our findings highlight the value of healthy sleep habits and could serve as a starting point for future research or initiatives supporting student wellness.
+
 
 <h2>Reproducing This Project<h2></h2>
 
