@@ -55,7 +55,7 @@ The two datasets cannot be directly combined because they come from different gr
 
 All the processed files and results are kept in a folder for our integrated sleep study so everything stays organized and easy to follow.
 
-<h2>Data quality</h2>	
+<h2>Data Quality</h2>	
 (500–1000 words)
 Summarize quality assessment:
 Completeness (missingness patterns)
