@@ -108,14 +108,66 @@ The Kaggle dataset is self-reported, which means students may have overestimated
 After cleaning, the CMU dataset retained all 634 students with complete sleep and GPA information, and the Student Habits dataset kept all 1,000 entries with no missing values. Because every cleaning step was done manually and documented, our analysis is fully transparent and reproducible. The resulting datasets are cleaner, more consistent, and more reliable, giving us a strong foundation for our findings.
 
 <h2>Findings</h2>	
-(Up to ~500 words)
-Describe final analytical results, including:
-Key numerical results
-Patterns/trends discovered
-Visualizations (insert ![](path/to/figure.png) if including inline)
-Interpretation—what the numbers actually mean
-Any hypotheses supported or contradicted
-Be direct and evidence-based.
+
+We looked at data from 1,547 college students and found some clear patterns about how sleep affects school performance. Sleep does matter for grades, but the effect is smaller than many people think.
+
+**Sleep Patterns Among Students**
+
+Most students in our study are not getting enough sleep. On average, students sleep only 6.52 hours per night, which is below the recommended 7–8 hours. When we looked at the sleep categories, the results were concerning. About 1,056 students, or 68 percent, fall into the Poor or Insufficient sleep groups.
+
+Here’s the breakdown:
+- 489 students sleep less than 6 hours
+- 567 students sleep 6–7 hours
+- 363 students sleep 7–8 hours
+- 128 students sleep more than 8 hours
+  
+Most students sleep 6–7 hours, and the average is still below the recommended 7 hours.
+
+**Sleep and Academic Performance: The Direct Effect**
+
+Students who sleep more usually have better grades, but the effect is small. The correlation between sleep and academic scores is only 0.14, meaning sleep explains about 2 percent of why some students do better than others.
+
+The scatter plot shows a line going upward, meaning more sleep is linked to higher scores, but the dots are very spread out. The equation y = 2.25x + 60.87 tells us that each extra hour of sleep raises a student’s score by about 2.25 points. So going from 6 to 8 hours would increase a score by about 4.5 points.
+
+**Comparing sleep groups:**
+
+- Poor sleep (<6 hours): 71.3 average score
+- Insufficient sleep (6–7 hours): 77.3 average
+- Adequate sleep (7–8 hours): 78.8 average
+- Optimal sleep (>8 hours): 74.7 average
+
+These results show that 7–8 hours is best. Students who slept more than 8 hours scored lower, which was surprising. An ANOVA test confirmed these differences are real (F = 16.49, p < 0.001).
+
+**Comparing Fitbit Data and Self-Reports**
+
+We compared two datasets. CMU students used Fitbits to track sleep automatically, while Kaggle students reported their own sleep.
+
+Findings:
+
+- CMU students slept 6.61 hours on average with less variation (SD = 0.85)
+- Kaggle students reported 6.47 hours with more variation (SD = 1.23)
+
+This shows self-reported sleep is less accurate. CMU students also had much higher academic scores (86.4 vs. 69.6), though the scores aren’t directly comparable because the systems were different.
+
+The sleep–grade link was slightly different too:
+
+- CMU (Fitbit): correlation 0.16, slope 2.30 points per hour
+- Kaggle (self-report): correlation 0.12, slope 1.68 points per hour
+  
+Measured sleep shows a slightly stronger effect, but it is still small.
+
+**How Sleep Affects Performance: The Productivity Question**
+
+We wanted to see if getting more sleep makes students more productive. Surprisingly, it doesn’t. Sleep had almost no connection to productivity (correlation -0.015). Students who slept more didn’t study longer or attend class more often.
+
+Productivity itself, though, really matters for grades (correlation 0.66). Across all sleep groups, students studied about the same which was around 3.3–3.6 hours per day and attendance was similar, around 84–85%. This shows that sleep doesn’t boost performance by making students more productive.
+
+A mediation test confirmed that sleep does have a direct effect on scores, adding about 1.68 points for each extra hour of sleep. However, this effect is not due to changes in productivity. The proportion mediated was -0.08, which shows that productivity does not explain the link between sleep and grades.
+
+**What the Numbers Really Mean**
+
+Sleep does help grades, but the effect is small. Getting an extra hour of sleep might raise a score by 2 to 3 points, which is not enough to dramatically change grades. Sleep seems to help more directly, probably by improving focus or thinking, rather than by increasing study time or class attendance. With 68 percent of students not getting enough sleep, it is clear that many are trading sleep for other responsibilities or simply not prioritizing it, even though it offers clear benefits
+
 
 <h2>Future work</h2>	
 
