@@ -201,7 +201,7 @@ Visualizations could also be more interactive instead of just static charts. For
 Overall, Yamuna and I believe that this project provided us with a solid foundation for understanding the relationship between sleep and academic performance. Even with data and methodology limits, we were able to identify clear patterns, clean and standardize the datasets using the steps we learnt in class and labs, and create meaningful visualizations. Our findings highlight the value of healthy sleep habits and could serve as a starting point for future research or initiatives supporting student wellness.
 
 
-<h2>Reproducing This Project<h2></h2>
+<h2>Reproducing This Project</h2>
 
 
 
@@ -209,7 +209,7 @@ Overall, Yamuna and I believe that this project provided us with a solid foundat
 
 
 
-<h2>References<h2></h2>
+<h2>References</h2>
 ### Software/Code
 This project's code is licensed under the MIT License. See [LICENSE](LICENSE) file.
 
