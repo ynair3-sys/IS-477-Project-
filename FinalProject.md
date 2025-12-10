@@ -7,6 +7,8 @@ Modeling The Relationship Between Sleep Patterns and Academic Performance Among 
   <li>Monisha Mudunuri (monisha5)</li>
   <li>Yamuna Nair (ynair3)</li>
 
+  Both Yamuna and Monisha contributed on all parts of this report with equal efforts. 
+
 <h2>Summary</h2>	
 
 Sleep deprivation is extremely common among college students. Many students stay awake for days and run on only 3-4 hours of sleep at a time, yet somehow still manage to get good grades. This raises an important question: does sleep really matter for academic success, or can students perform well despite getting very little rest?
