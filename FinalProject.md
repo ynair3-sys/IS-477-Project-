@@ -4,8 +4,8 @@
 Modeling The Relationship Between Sleep Patterns and Academic Performance Among College Students</h2>	
 
 <h2>Contributors</h2>	
-  <li>Monisha Mudunuri </li>
-  <li>Yamuna Nair</li>
+  <li>Monisha Mudunuri (monisha5)</li>
+  <li>Yamuna Nair (ynair3)</li>
 
 <h2>Summary</h2>	
 
