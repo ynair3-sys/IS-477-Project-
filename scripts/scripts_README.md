@@ -73,12 +73,10 @@ This folder contains all Python scripts used in the data pipeline.
 ## Script Features
 
 ### All Scripts Include:
-- ✅ Error handling
-- ✅ Progress indicators
-- ✅ Detailed console output
-- ✅ Quality checks
-- ✅ Automatic directory creation
-- ✅ Comprehensive logging
+- Error handling
+- Progress indicators
+- Detailed console output
+- Quality checks
 
 ### Code Quality:
 - Well-documented with comments
@@ -91,13 +89,13 @@ This folder contains all Python scripts used in the data pipeline.
 
 ## What These Files Support
 
-**Reproducibility [20 pts]:**
+**Reproducibility :**
 - Complete, executable scripts
 - Clear input/output specifications
 - Documented parameters
 - Version controlled
 
-**Transparency [20 pts]:**
+**Transparency :**
 - All analysis steps visible
 - Methods clearly implemented
 - Intermediate outputs saved
@@ -134,7 +132,7 @@ snakemake --cores 1
 
 See `../Workflow Automation/` for details.
 
-**Note:** OpenRefine cleaning step is manual and occurs between acquisition and integration.
+**Note:** OpenRefine cleaning step was **manual** and occurs between acquisition and integration.
 
 ---
 
