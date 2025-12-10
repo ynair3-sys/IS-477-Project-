@@ -8,7 +8,7 @@ This document provides comprehensive information to allow independent reproducti
 
 **Title**: Sleep Patterns and Academic Performance Among College Students
 
-**Authors**: Yamuna and Muna
+**Authors**: Yamuna Nair and Monisha Mudunuri
 
 **Course**: IS 477 - Data Management & Curation
 
@@ -26,7 +26,7 @@ This document provides comprehensive information to allow independent reproducti
 
 **Source**: Carnegie Mellon University Sleep Study  
 **Original URL**: [Provide actual URL or repository location]  
-**Access Date**: [Your download date]  
+**Access Date**: 9/24/25 
 **Format**: CSV  
 **License**: Open academic research license (Creative Commons Attribution 4.0)
 
@@ -39,11 +39,11 @@ This document provides comprehensive information to allow independent reproducti
 
 #### Dataset 2: Kaggle Student Habits Dataset
 
-**Source**: Kaggle community dataset by MD Shariful Islam  
+**Source**: Kaggle community dataset by Jayanta Nath  
 **URL**: https://www.kaggle.com/datasets/jayaantanaath/student-habits-vs-academic-performance  
-**Access Date**: [Your download date]  
+**Access Date**: 9/24/25
 **Format**: CSV  
-**License**: Kaggle Community License
+**License**: Kaggle Community License, Apache 2.0
 
 **Original Variables**:
 - `sleep_hours` - Self-reported average sleep per night
@@ -60,7 +60,7 @@ This document provides comprehensive information to allow independent reproducti
 
 ### 2. Data Cleaning and Preprocessing
 
-**Tool Used**: OpenRefine 3.7.x
+**Tool Used**: OpenRefine 3.7.6
 
 **Cleaning Operations Applied**:
 
