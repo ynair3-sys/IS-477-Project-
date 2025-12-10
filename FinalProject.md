@@ -32,7 +32,7 @@ We faced several challenges. The two datasets represent different student groups
 
 
 <h2>Data profile</h2>	
-(500–1000 words)
+
 Data Profile
 
 **Dataset 1: CMU Sleep and GPA Dataset with Fitbit Data**
