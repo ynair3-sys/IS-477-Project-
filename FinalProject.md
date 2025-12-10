@@ -56,20 +56,56 @@ The two datasets cannot be directly combined because they come from different gr
 All the processed files and results are kept in a folder for our integrated sleep study so everything stays organized and easy to follow.
 
 <h2>Data Quality</h2>	
-(500–1000 words)
-Summarize quality assessment:
-Completeness (missingness patterns)
-Consistency (format issues, schema mismatches)
-Accuracy (validation checks, outliers)
-Timeliness
-Duplicates
-Biases or sampling limitations
-Tools used (profiling scripts, pandas checks, visualizations)
-Actions you took to address issues
-Cleaning steps
-Transformations
-Derived variables added
-Conclude with the net impact on your analysis.
+
+We assessed the quality of both datasets by checking for completeness, consistency, accuracy, and any issues that might affect our analysis. All cleaning and validation were done manually using OpenRefine to make sure every correction was intentional and documented.
+
+**Completeness and Missing Data** 
+
+The CMU Sleep Dataset included 634 students and 15 columns. While most fields were complete, the demo_firstgencolumn had unclear entries—some students were marked as “2,” and others had blank values. Since the meaning wasn’t clear, we recorded all uncertain entries as “Unknown” rather than guessing.
+
+We also looked at frac_nights_with_data, which shows how consistently students wore their Fitbits. Some students wore their device every night, while others didn’t, so the reliability of sleep data varies from student to student.
+
+The Kaggle Student Habits Dataset had 1,000 students and 16 columns with no missing values. However, because all the information was self-reported, we had to keep in mind the possibility of inaccurate recall or students reporting what sounds better than reality.
+
+**Consistency and Format Issues**
+
+Both datasets had major formatting problems. In the CMU dataset, many columns that should have been numeric were incorrectly stored as text. We manually converted 11 columns into the correct numeric format in OpenRefine, including sleep measures like TotalSleepTime, bedtime_mssd, and midpoint_sleep, along with academic variables such as term_gpa and cum_gpa. A few fields, like study and demo_race, were originally treated as numbers but were actually categorical labels, so we converted them back into text.
+
+In the Student Habits dataset, several text fields had hidden spaces or inconsistent formatting. We removed whitespace across all text columns and changed 10 fields—such as age, sleep_hours, exercise_frequency, attendance_percentage, and exam_score—from text to numbers so they could be used in analysis.
+
+**Accuracy Checks and Duplicates**
+
+We checked all values to make sure they were reasonable. For example, no one should have negative sleep hours, more than 24 hours of sleep, a GPA above 4.0, or attendance outside the 0–100% range. When we found extreme values, we reviewed them manually in OpenRefine. Most of them reflected real edge cases rather than errors, so we kept them.
+
+We also removed duplicate entries in the CMU dataset using subject_id, ensuring each student only appeared once. The Student Habits dataset had no duplicates.
+
+**Tools and Workflow**
+
+Since we did all data cleaning manually, our workflow was straightforward:
+
+1. Load the datasets into OpenRefine
+2. Fix formatting issues, convert data types, and clean categories
+3. Review and correct inaccuracies
+4. Document every change using OpenRefine’s built-in history
+   
+We exported the OpenRefine histories for both datasets so the entire cleaning process is fully reproducible (17 steps for CMU and 16 steps for the Student Habits dataset). Cleaned files were saved in data/processed/Cleaned CSV Datasets and raw files remained untouched in data/raw/.
+
+**Changes and Standardization**
+
+To make the two datasets comparable, we standardized measurements. For example, the CMU dataset reported sleep in minutes whereas the Kaggle dataset reported sleep in hours—so we converted everything to hours for consistency. We also created three sleep categories based on widely accepted sleep health guidelines:
+- Low sleep: under 6 hours
+- Moderate sleep: 6–8 hours
+- High sleep: over 8 hours
+
+**Limitations**
+
+The CMU dataset only includes first-year students at three universities during one semester, so it doesn’t necessarily represent all college students. And because the study relied on volunteers who wore Fitbits regularly, the sample may differ from the general student population.
+
+The Kaggle dataset is self-reported, which means students may have overestimated positive habits (like studying) and underestimated negative ones (like screen time). Since the two datasets come from different populations, we had to be cautious when comparing them.
+
+**Impact on Analysis**
+
+After cleaning, the CMU dataset retained all 634 students with complete sleep and GPA information, and the Student Habits dataset kept all 1,000 entries with no missing values. Because every cleaning step was done manually and documented, our analysis is fully transparent and reproducible. The resulting datasets are cleaner, more consistent, and more reliable, giving us a strong foundation for our findings.
 
 <h2>Findings</h2>	
 (Up to ~500 words)
