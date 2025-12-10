@@ -382,7 +382,7 @@ If results differ from expectations:
 ### Running the Analysis
 
 ```bash
-python 04_analysis_visualization.py
+python 03_analysis_visualization.py
 ```
 
 ### Reading the Outputs
