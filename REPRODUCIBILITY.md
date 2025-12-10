@@ -514,7 +514,6 @@ sha256sum data/processed/integrated_data.csv
 1. Check error message carefully
 2. Verify all file paths are correct
 3. Confirm package versions match exactly
-4. Contact authors: [your_email@example.com]
 
 ---
 
