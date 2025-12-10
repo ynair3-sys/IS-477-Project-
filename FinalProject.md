@@ -86,3 +86,21 @@ Use consistent citation style (APA, Chicago, IEEE, etc.).
 CMU Sleep Dataset
 Carnegie Mellon University, Department of Statistics & Data Science. (n.d.). CMU Sleep Study Dataset [Data set]. CMU Statistics Data Repository. Retrieved December 9, 2025, from https://cmustatistics.github.io/data-repository/data/cmu-sleep.csv.
 License: Not specified; use permitted for educational and research purposes only, but redistribution or commercial use is not explicitly allowed
+
+
+### Software/Code
+This project's code is licensed under the MIT License. See [LICENSE](LICENSE) file.
+
+### Data Sources
+
+**CMU Sleep Dataset:**
+- Source: Carnegie Mellon University Statistics & Data Science Repository
+- Citation: Creswell, J. D., et al. (2023). Nightly sleep duration predicts grade point average in the first year of college. PNAS, 120(8), e2209123120.
+- License: Open for academic use with attribution
+- URL: https://cmustatistics.github.io/data-repository/psychology/cmu-sleep.html
+
+**Kaggle Student Habits Dataset:**
+- Source: Kaggle (jayaantanaath)
+- Citation: Jayaantanaath. (2025). Student Habits vs Academic Performance [Dataset]. Kaggle.
+- License: Public dataset on Kaggle
+- URL: https://www.kaggle.com/datasets/jayaantanaath/student-habits-vs-academic-performance
