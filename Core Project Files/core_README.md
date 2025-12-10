@@ -9,6 +9,7 @@ This folder contains the essential project documentation and configuration files
 - **Content:** Legal permissions for code reuse
 - **Workflow Step:** Compliance requirement
 
+
 ### requirements.txt
 - **Purpose:** Python package dependencies
 - **Content:** List of required packages for running the project
