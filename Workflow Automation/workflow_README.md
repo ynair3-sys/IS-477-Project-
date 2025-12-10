@@ -37,9 +37,6 @@ This folder contains scripts and configuration files for automated workflow exec
   - Expected outputs
 - **Workflow Step:** Documentation - reproducibility instructions
 
-### README.md (This file)
-- **Purpose:** Workflow folder overview
-
 ---
 
 ## Workflow Overview
@@ -62,15 +59,14 @@ snakemake --cores 1
 
 ## What These Files Support
 
-**Reproducibility [20 pts]:**
+**Reproducibility:**
 - Automated workflow ensures consistent execution
 - Configuration files document parameters
 - Documentation enables independent reproduction
 
-**Transparency [20 pts]:**
+**Transparency :**
 - All workflow steps clearly defined
 - Execution logs generated automatically
-- Complete provenance tracking
 
 ---
 
