@@ -15,21 +15,17 @@ This folder contains detailed documentation supporting the project's reproducibi
   - Missing value codes
 - **Workflow Step:** FAIR principles - Data documentation
 
-### README.md (This file)
-- **Purpose:** Documentation folder overview
-- **Content:** Description of documentation artifacts
-
 ---
 
 ## What These Files Support
 
-**FAIR Principles [10 pts]:**
+**FAIR Principles:**
 - **F**indable: Metadata makes data discoverable
 - **A**ccessible: Clear descriptions enable access
 - **I**nteroperable: Standard formats and documentation
 - **R**eusable: Complete variable descriptions enable reuse
 
-**Documentation [10 pts]:**
+**Documentation :**
 - Complete project documentation
 - Data dictionaries for all datasets
 - Clear descriptions of all manual steps
