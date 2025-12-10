@@ -51,11 +51,7 @@ We clean this dataset too by handling missing answers, converting text answers i
 
 **Integration Strategy**
 
-The two datasets cannot be directly combined because they come from different groups of students at different schools and times. But they work well together in a different way.
-
-The Fitbit dataset gives very accurate sleep information based on real measurements. The Kaggle dataset gives personal context that devices cannot measure, like stress levels, study habits, and how students feel about their sleep.
-
-To connect the two datasets, we use three approaches. The first approach is to analyze each dataset separately and see if similar patterns show up in both. The second approach is to match students from one dataset to students in the other who have similar characteristics, even though they are not the same people. The third approach is to compare the results from both datasets and combine the findings to get bigger conclusions.
+The two datasets cannot be directly combined because they come from different groups of students at different schools and times. But they work well together in a different way. The Fitbit dataset gives very accurate sleep information based on real measurements. The Kaggle dataset gives personal context that devices cannot measure, like stress levels, study habits, and how students feel about their sleep. To connect the two datasets, we use three approaches. The first approach is to analyze each dataset separately and see if similar patterns show up in both. The second approach is to match students from one dataset to students in the other who have similar characteristics, even though they are not the same people. The third approach is to compare the results from both datasets and combine the findings to get bigger conclusions.
 
 All the processed files and results are kept in a folder for our integrated sleep study so everything stays organized and easy to follow.
 
