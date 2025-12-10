@@ -45,13 +45,13 @@ CMU    Kaggle      Combined
 
 ## What These Files Support
 
-**Transparency [20 pts]:**
+**Transparency:**
 - Raw data preserved (shows original state)
 - Processed data documented (shows cleaning)
 - Integrated data available (shows merging)
 - Complete data pipeline visible
 
-**Reproducibility [20 pts]:**
+**Reproducibility :**
 - All data stages available for verification
 - Cleaning steps can be validated
 - Integration process can be reproduced
