@@ -61,12 +61,12 @@ This folder contains all analysis outputs including statistical tables and visua
 
 ## What These Files Support
 
-**Transparency [20 pts]:**
+**Transparency:**
 - All analysis outputs available for verification
 - Both raw data (JSON) and visualizations (PNG)
 - Complete results documented
 
-**Quality [20 pts]:**
+**Quality:**
 - Professional visualizations
 - Well-organized outputs
 - Clear, understandable results
@@ -90,4 +90,3 @@ snakemake --cores 1
 - Data: `../data/`
 - Scripts: `../scripts/`
 
-**Box Link:** [Available in main README.md]
