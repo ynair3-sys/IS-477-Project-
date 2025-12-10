@@ -5,18 +5,6 @@
 
 ---
 
-## Table of Contents
-
-1. [Overview](#overview)
-2. [Prerequisites](#prerequisites)
-3. [Workflow Steps](#workflow-steps)
-4. [Automated Execution](#automated-execution)
-5. [Manual Execution](#manual-execution)
-6. [Outputs](#outputs)
-7. [Troubleshooting](#troubleshooting)
-
----
-
 ## Overview
 
 This document describes the complete data analysis workflow for investigating how sleep patterns influence GPA and study productivity among college students.
@@ -102,7 +90,7 @@ curl -o cmu-sleep.csv https://cmustatistics.github.io/data-repository/data/cmu-s
 - Fix inconsistencies
 - Export JSON recipe for reproducibility
 
-**⚠️ Important:** Save your OpenRefine operation history to `docs/openrefine_recipe.json`
+** Important:** Save your OpenRefine operation history to `docs/openrefine_recipe.json`
 
 ### Step 3: Data Integration
 
@@ -263,31 +251,6 @@ ls results/figures/
 
 ---
 
-## Outputs
-
-### Directory Structure
-
-After running the complete workflow:
-
-```
-project-root/
-├── data/
-│   └── integrated_data.csv          # 1,547 students, 15 variables
-├── results/
-│   ├── tables/
-│   │   ├── descriptive_statistics.json
-│   │   ├── correlations.json
-│   │   ├── regression_results.json
-│   │   └── category_analysis.json
-│   └── figures/
-│       ├── 01_sleep_distribution.png
-│       ├── 02_sleep_vs_performance.png
-│       ├── 03_dataset_comparison.png
-│       └── 04_productivity_mediation.png
-└── logs/
-    ├── integration.log
-    └── analysis.log
-```
 
 ### Output Descriptions
 
