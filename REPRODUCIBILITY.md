@@ -239,7 +239,7 @@ Testing whether productivity mediates the sleep → academic performance relatio
 
 #### 4.4 Group Comparisons (ANOVA)
 
-**Method**: One-way ANOVA using `scipy.stats.f_oneway()`
+**Method**: 
 
 **Null Hypothesis**: Mean academic scores are equal across all sleep categories
 
