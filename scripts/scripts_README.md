@@ -4,7 +4,7 @@ This folder contains all Python scripts used in the data pipeline.
 
 ## Files
 
-### 03_data_integration.py
+### 02_data_integration.py
 - **Purpose:** Integrate CMU and Kaggle datasets
 - **Input:**
   - `cleaned_cmu-sleep.csv` (547 students)
@@ -17,10 +17,9 @@ This folder contains all Python scripts used in the data pipeline.
   - Create derived variables (sleep_category, productivity_score)
   - Vertical concatenation with source identifier
   - Quality checks on integrated data
-- **Runtime:** ~10-30 seconds
 - **Usage:** `python 03_data_integration.py`
 
-### 04_analysis_visualization.py
+### 03_analysis_visualization.py
 - **Purpose:** Analyze integrated data and create visualizations
 - **Input:**
   - `data/integrated/integrated_data.csv`
@@ -34,7 +33,6 @@ This folder contains all Python scripts used in the data pipeline.
   - Regression models (simple, by dataset, mediation)
   - ANOVA by sleep categories
   - Publication-quality visualizations
-- **Runtime:** ~1-2 minutes
 - **Usage:** `python 04_analysis_visualization.py`
 
 ---
