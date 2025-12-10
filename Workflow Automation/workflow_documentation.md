@@ -453,11 +453,11 @@ cat results/tables/correlations.json | python -m json.tool
 ## Contact
 
 For questions about this workflow:
-- **Author:** [Your Name]
+- **Authors:** Yamuna Nair and Monisha Mudunuri
 - **Course:** IS 477 - Data Management
 - **Date:** December 2025
 
 ---
 
 **Last Updated:** December 2025  
-**Version:** 1.0
+
