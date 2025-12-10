@@ -403,28 +403,4 @@ print(f"Sleep coefficient: {model1['coefficient']:.2f}")
 **Figures:**
 Open PNG files in any image viewer or include in reports.
 
----
 
-## Citation
-
-When reporting these analyses in your final report:
-
-**Methods section:**
-> "We conducted correlation and regression analyses to examine relationships between sleep duration and academic performance. Mediation analysis tested whether study productivity mediated this relationship. All analyses were performed in Python 3.9 using pandas, scipy, and scikit-learn. Statistical significance was set at α=0.05."
-
-**Results section:**
-> "Sleep hours were positively correlated with academic performance (r=X.XX, p<0.05). Linear regression showed that each additional hour of sleep predicted a X.XX point increase in academic scores (β=X.XX, R²=X.XX, p<0.05)."
-
----
-
-## Contact
-
-For questions about these analyses:
-- **Author:** [Your Name]
-- **Script:** `04_analysis_visualization.py`
-- **Documentation:** This file (ANALYSIS.md)
-
----
-
-**Last Updated:** December 2025  
-**Version:** 1.0
