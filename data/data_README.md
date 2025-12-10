@@ -19,6 +19,7 @@ This folder contains all data files organized by processing stage and also inclu
   - `cleaned_student_habits.csv` - Cleaned Kaggle dataset
 - **Workflow Step:** Data cleaning
 - **Cleaning:** Missing values handled, duplicates removed, standardized formats
+- inlcludes json formated OpenRefine history 
 
 ### integrated/
 - **Purpose:** Merged dataset combining both sources
