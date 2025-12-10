@@ -369,10 +369,6 @@ pip install -r requirements.txt
 
 **Hardware Requirements**:
 - Minimum: 4GB RAM, 2GB disk space
-- Recommended: 8GB RAM, 5GB disk space
-- Processing time: < 1 minute on typical laptop
-
----
 
 
 ---
