@@ -1,6 +1,6 @@
 # Data
 
-This folder contains all data files organized by processing stage.
+This folder contains all data files organized by processing stage and also includes all OpenRefine recipes in json format. 
 
 ## Subfolders
 
