@@ -203,10 +203,9 @@ Overall, Yamuna and I believe that this project provided us with a solid foundat
 
 <h2>Reproducing This Project</h2>
 
+All steps of our analysis from data acquisition to final results are fully documented to allow independent reproduction. We used two datasets: the CMU Sleep Dataset (Fitbit-tracked sleep) and the Kaggle Student Habits Dataset (self-reported sleep), both in CSV format. Data cleaning and preprocessing included handling missing values, standardizing variable names, and computing derived variables like productivity scores. The cleaned datasets were integrated, categorized by sleep duration, and analyzed using Python (numpy, scipy, scikit-learn) for descriptive statistics, correlations and regression. Visualizations were generated with matplotlib and seaborn.
 
-
-
-
+All scripts, package versions, and expected outputs are documented, along with SHA-256 checksums to verify file integrity. Limitations and assumptions, such as differences in measurement scales and cross-sectional design, are detailed in the full reproducibility document. For complete step-by-step instructions, cleaned data, and full workflow details, see the REPRODUCIBILITY.md under the Core Project Files.
 
 
 <h2>References</h2>
