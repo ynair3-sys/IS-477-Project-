@@ -260,7 +260,7 @@ Testing whether productivity mediates the sleep → academic performance relatio
 
 ### 5. Visualizations
 
-**Script**: `scripts/03_visualizations.py`
+**Script**: `scripts/03_analysis_visualizations.py`
 
 **Software Environment**:
 - matplotlib 3.7.2
@@ -374,53 +374,10 @@ pip install -r requirements.txt
 
 ---
 
-### 7. Directory Structure
-
-Complete project organization:
-
-```
-sleep-gpa-analysis/
-├── README.md                           # Project overview
-├── requirements.txt                    # Python dependencies
-├── REPRODUCIBILITY.md                  # This document
-│
-├── data/
-│   ├── raw/                           # Original downloaded data
-│   │   ├── cmu-sleep.csv              # Original CMU dataset
-│   │   └── student_habits_performance.csv  # Original Kaggle dataset
-│   │
-│   └── processed/                     # Cleaned data
-│       ├── cleaned_cmu_sleep.csv      # Cleaned CMU (547 rows)
-│       ├── cleaned_kaggle_habits.csv  # Cleaned Kaggle (1000 rows)
-│       └── integrated_data.csv        # Combined dataset (1547 rows)
-│
-├── scripts/
-│   ├── 01_integrate_data.py          # Data integration
-│   ├── 02_analysis.py                # Statistical analysis
-│   └── 03_visualizations.py          # Figure generation
-│
-├── results/
-│   ├── tables/                       # Analysis outputs (JSON)
-│   │   ├── descriptive_statistics.json
-│   │   ├── correlations.json
-│   │   ├── regression_results.json
-│   │   └── category_analysis.json
-│   │
-│   └── figures/                      # Visualizations (PNG, 300 DPI)
-│       ├── 01_sleep_distribution.png
-│       ├── 02_sleep_vs_performance.png
-│       ├── 03_dataset_comparison.png
-│       └── 04_productivity_mediation.png
-│
-└── documentation/
-    ├── DATA_PROFILE.md               # Dataset documentation
-    ├── FINDINGS.md                   # Results summary
-    └── openrefine_cleaning_log.txt   # Data cleaning documentation
-```
 
 ---
 
-### 8. Execution Instructions
+### 7. Execution Instructions
 
 **Step-by-step reproduction**:
 
@@ -470,20 +427,6 @@ ls results/figures/
 **Expected execution time**: 30-40 seconds total
 
 ---
-
-### 9. Data Availability
-
-**Cleaned Datasets**: Available via Box folder  
-**Box Link**: [INSERT_BOX_SHARE_LINK_HERE]
-
-**Box Folder Contents**:
-```
-/data/processed/
-  - cleaned_cmu_sleep.csv (547 rows, 3 columns, ~20 KB)
-  - cleaned_kaggle_habits.csv (1000 rows, 4 columns, ~35 KB)
-```
-
-**Alternative Access**: Raw data can be downloaded from original sources (CMU repository and Kaggle) and cleaned following the OpenRefine procedures documented in `openrefine_cleaning_log.txt`
 
 **Data License**: 
 - CMU dataset: CC-BY-4.0
@@ -579,60 +522,7 @@ sha256sum data/processed/integrated_data.csv
 
 ---
 
-### 14. Citing This Work
-
-**APA Format**:
-```
-Yamuna & Muna. (2025). Sleep Patterns and Academic Performance Among 
-College Students: A Reproducible Data Science Analysis. University of 
-Illinois Urbana-Champaign, IS 477 - Data Management & Curation.
-```
-
-**BibTeX**:
-```bibtex
-@misc{yamuna_muna_2025_sleep,
-  author = {Yamuna and Muna},
-  title = {Sleep Patterns and Academic Performance Among College Students: 
-           A Reproducible Data Science Analysis},
-  year = {2025},
-  institution = {University of Illinois Urbana-Champaign},
-  course = {IS 477 - Data Management & Curation},
-  howpublished = {\url{[INSERT_GITHUB_OR_BOX_URL]}}
-}
-```
-
----
-
-### 15. License Information
-
-**Code License**: MIT License  
-**Data License**: CC-BY-4.0  
-**Documentation License**: CC-BY-4.0
-
-**Acknowledgments**:
-- CMU Sleep Study researchers for original data collection
-- MD Shariful Islam for Kaggle dataset contribution
-- IS 477 instructors for project guidance
-
----
-
-### 16. Contact Information
-
-**Authors**:
-- Yamuna: [email]
-- Muna: [email]
-
-**Course**: IS 477 - Data Management & Curation  
-**Institution**: University of Illinois Urbana-Champaign  
-**Semester**: Fall 2025  
-**Instructor**: [Instructor name]
-
-**Project Repository**: [GitHub/Box URL]  
-**Last Updated**: December 9, 2025
-
----
-
-## Reproducibility Checklist
+## 14. Reproducibility Checklist
 
 Use this checklist to verify complete reproducibility:
 
