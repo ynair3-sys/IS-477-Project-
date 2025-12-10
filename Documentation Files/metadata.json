@@ -1,0 +1,274 @@
+{
+  "@context": "http://schema.datacite.org/meta/kernel-4.4/metadata.xsd",
+  "identifier": {
+    "identifier": "https://github.com/ynair3-sys/IS-477-Project",
+    "identifierType": "URL"
+  },
+  "creators": [
+    
+    {
+        "creatorName": "Mudunuri, Monisha",
+        "givenName": "Monisha",
+        "familyName": "Mudunuri",
+        "affiliation": "University of Illinois Urbana-Champaign",
+        "nameIdentifier": {
+            "nameIdentifier": "monisha5@illinois.edu",
+            "nameIdentifierScheme": "email"
+        }
+    },
+    {
+        "creatorName": "Nair, Yamuna",
+        "givenName": "Yamuna",
+        "familyName": "Nair",
+        "affiliation": "University of Illinois Urbana-Champaign",
+        "nameIdentifier": {
+            "nameIdentifier": "ynair3@illinois.edu",
+            "nameIdentifierScheme": "email"
+        }
+    }
+],
+  "titles": [
+    {
+      "title": "Sleep Patterns and Academic Performance Among College Students: A Data Integration and Statistical Analysis Study"
+    }
+  ],
+  "publisher": "University of Illinois Urbana-Champaign",
+  "publicationYear": "2025",
+  "resourceType": {
+    "resourceTypeGeneral": "Dataset",
+    "resourceType": "Integrated Research Dataset with Statistical Analysis"
+  },
+  "subjects": [
+    {
+      "subject": "Sleep Patterns",
+      "subjectScheme": "keyword"
+    },
+    {
+      "subject": "Academic Performance",
+      "subjectScheme": "keyword"
+    },
+    {
+      "subject": "College Students",
+      "subjectScheme": "keyword"
+    },
+    {
+      "subject": "Data Integration",
+      "subjectScheme": "keyword"
+    },
+    {
+      "subject": "Educational Data Science",
+      "subjectScheme": "keyword"
+    },
+    {
+      "subject": "Actigraphy",
+      "subjectScheme": "keyword"
+    },
+    {
+      "subject": "Student Health",
+      "subjectScheme": "keyword"
+    },
+    {
+      "subject": "Regression Analysis",
+      "subjectScheme": "keyword"
+    },
+    {
+      "subject": "Mediation Analysis",
+      "subjectScheme": "keyword"
+    }
+  ],
+  "contributors": [
+    {
+      "contributorName": "Carnegie Mellon University Statistics Department",
+      "contributorType": "DataCollector",
+      "affiliation": "Carnegie Mellon University"
+    },
+    {
+      "contributorName": "Jayaantanaath",
+      "contributorType": "DataCollector",
+      "affiliation": "Kaggle"
+    }
+  ],
+  "dates": [
+    {
+      "date": "2025-12-09",
+      "dateType": "Created"
+    },
+    {
+      "date": "2025-12-09",
+      "dateType": "Updated"
+    },
+    {
+      "date": "2025-12-09",
+      "dateType": "Submitted"
+    }
+  ],
+  "language": "en-US",
+  "descriptions": [
+    {
+      "description": "This project investigates the relationship between sleep patterns and academic performance among college students through comprehensive data integration and statistical analysis. We integrated two datasets: the CMU Sleep Dataset (N=547, objective actigraphy measurements from Fitbit devices) and the Kaggle Student Habits Dataset (N=1,000, self-reported survey data) to create a unified dataset of 1,547 complete student records. The analysis examines correlations between sleep duration, sleep quality, study habits, productivity, and academic outcomes using descriptive statistics, correlation analysis, linear regression modeling, and mediation analysis. Key analytical methods include simple linear regression to quantify the effect of sleep on academic performance, group comparisons (ANOVA) across sleep categories (Poor/Insufficient/Adequate/Optimal), and mediation analysis to test whether productivity mediates the sleep-performance relationship. Results demonstrate statistically significant relationships between sleep patterns and academic performance, with implications for student health and wellness programs in higher education.",
+      "descriptionType": "Abstract"
+    },
+    {
+      "description": "Data was collected from two independent sources: (1) CMU Sleep Dataset - objective actigraphy measurements from 547 students wearing Fitbit devices during the 2018-2019 academic year; (2) Kaggle Student Habits Dataset - self-reported survey data from 1,000 students during the 2023-2024 academic year. Data cleaning procedures included removing duplicates, handling missing values through median/mean imputation, standardizing variable names, and converting GPA scales to a unified 0-100 academic score metric. Statistical analyses were performed using Python 3.9.6 with pandas for data manipulation, scipy for statistical tests, scikit-learn for regression modeling, and matplotlib/seaborn for visualization. Four primary analyses were conducted: (1) descriptive statistics by dataset and sleep category, (2) Pearson correlation analysis for bivariate relationships, (3) linear regression models to quantify sleep effects on academic performance (overall, CMU subset, Kaggle subset), and (4) mediation analysis testing whether productivity mediates the sleep-performance relationship. All analyses include appropriate statistical significance testing (p-values) and effect size reporting (correlation coefficients, R², regression coefficients).",
+      "descriptionType": "Methods"
+    },
+    {
+      "description": "The integrated dataset contains 1,547 student records with standardized variables measuring sleep duration (hours per night), sleep quality categories (Poor/Insufficient/Adequate/Optimal based on duration thresholds), academic performance (0-100 scale), and for the Kaggle subset, productivity metrics including study hours and attendance rates. Data quality metrics show 100% completeness for core variables (sleep_hours, academic_score) after cleaning, with dataset-specific variables appropriately documented. The CMU subset provides objective sleep measurements with 87% average data completeness from actigraphy devices, while the Kaggle subset provides self-reported measures with additional behavioral variables not available in the CMU data.",
+      "descriptionType": "Other"
+    }
+  ],
+  "geoLocations": [
+    {
+      "geoLocationPlace": "United States"
+    }
+  ],
+  "formats": [
+    "text/csv",
+    "application/json",
+    "image/png"
+  ],
+  "version": "1.0.0",
+  "rightsList": [
+    {
+      "rights": "MIT License",
+      "rightsURI": "https://opensource.org/licenses/MIT"
+    }
+  ],
+  "relatedIdentifiers": [
+    {
+      "relatedIdentifier": "https://cmustatistics.github.io/data-repository/",
+      "relatedIdentifierType": "URL",
+      "relationType": "IsSourceOf",
+      "resourceTypeGeneral": "Dataset"
+    },
+    {
+      "relatedIdentifier": "https://www.kaggle.com/datasets/jayaantanaath/student-habits-vs-academic-performance",
+      "relatedIdentifierType": "URL",
+      "relationType": "IsSourceOf",
+      "resourceTypeGeneral": "Dataset"
+    },
+    {
+      "relatedIdentifier": "https://github.com/ynair3-sys/IS-477-Project",
+      "relatedIdentifierType": "URL",
+      "relationType": "IsIdenticalTo",
+      "resourceTypeGeneral": "Software"
+    }
+  ],
+  "sizes": [
+    "1547 student records",
+    "547 CMU students (actigraphy data)",
+    "1000 Kaggle students (survey data)",
+    "4 statistical analysis outputs (JSON)",
+    "4 data visualizations (PNG)"
+  ],
+  "fundingReferences": [],
+  "relatedItems": [
+    {
+      "relatedItemType": "OutputManagementPlan",
+      "relationType": "IsDocumentedBy",
+      "titles": [
+        {
+          "title": "Data Dictionary"
+        }
+      ]
+    },
+    {
+      "relatedItemType": "OutputManagementPlan",
+      "relationType": "IsDocumentedBy",
+      "titles": [
+        {
+          "title": "Analysis Methods Documentation"
+        }
+      ]
+    }
+  ],
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "technicalInfo": {
+    "software": [
+      {
+        "name": "Python",
+        "version": "3.9.6",
+        "url": "https://www.python.org/"
+      },
+      {
+        "name": "pandas",
+        "version": ">=2.0.0",
+        "url": "https://pandas.pydata.org/",
+        "purpose": "Data manipulation and integration"
+      },
+      {
+        "name": "NumPy",
+        "version": ">=1.24.0",
+        "url": "https://numpy.org/",
+        "purpose": "Numerical computations"
+      },
+      {
+        "name": "SciPy",
+        "version": ">=1.10.0",
+        "url": "https://scipy.org/",
+        "purpose": "Statistical analysis and hypothesis testing"
+      },
+      {
+        "name": "scikit-learn",
+        "version": ">=1.2.0",
+        "url": "https://scikit-learn.org/",
+        "purpose": "Regression modeling and machine learning"
+      },
+      {
+        "name": "Matplotlib",
+        "version": ">=3.7.0",
+        "url": "https://matplotlib.org/",
+        "purpose": "Data visualization"
+      },
+      {
+        "name": "seaborn",
+        "version": ">=0.12.0",
+        "url": "https://seaborn.pydata.org/",
+        "purpose": "Statistical data visualization"
+      },
+      {
+        "name": "Snakemake",
+        "version": ">=7.32.0",
+        "url": "https://snakemake.readthedocs.io/",
+        "purpose": "Workflow automation and reproducibility"
+      }
+    ],
+    "dataProcessing": [
+      {
+        "step": "Data Acquisition",
+        "script": "scripts/01_data_acquisition.py",
+        "description": "Download raw datasets from CMU repository and Kaggle"
+      },
+      {
+        "step": "Data Cleaning",
+        "script": "scripts/02_data_cleaning.py",
+        "description": "Remove duplicates, handle missing values, standardize variables"
+      },
+      {
+        "step": "Data Integration",
+        "script": "scripts/03_data_integration.py",
+        "description": "Merge CMU and Kaggle datasets with standardized schema"
+      },
+      {
+        "step": "Analysis and Visualization",
+        "script": "scripts/04_analysis_visualization.py",
+        "description": "Statistical analysis and figure generation"
+      }
+    ],
+    "outputFiles": {
+      "tables": [
+        "results/tables/descriptive_statistics.json",
+        "results/tables/correlations.json",
+        "results/tables/regression_results.json",
+        "results/tables/category_analysis.json"
+      ],
+      "figures": [
+        "results/figures/01_sleep_distribution.png",
+        "results/figures/02_sleep_vs_performance.png",
+        "results/figures/03_dataset_comparison.png",
+        "results/figures/04_productivity_mediation.png"
+      ]
+    }
+  }
+  
+}
