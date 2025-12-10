@@ -1,7 +1,7 @@
 # Analysis Methods Documentation
 
 **Project:** Sleep Patterns and Academic Performance Study  
-**Script:** `04_analysis_visualization.py`  
+**Script:** `03_analysis_visualization.py`  
 **Date:** December 2025
 
 ---
