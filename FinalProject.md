@@ -226,3 +226,6 @@ This project's code is licensed under the MIT License. See [LICENSE](LICENSE) fi
 - Citation: Jayaantanaath. (2025). Student Habits vs Academic Performance [Dataset]. Kaggle.
 - License: Public dataset on Kaggle
 - URL: https://www.kaggle.com/datasets/jayaantanaath/student-habits-vs-academic-performance
+
+ChatGPT (GPT-5.1) was used to help with grammar, phrasing, and structuring sections of the report.
+
